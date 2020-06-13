@@ -1,0 +1,64 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html, body {
+    margin : 0;
+    height : 100%;
+    background-color:#1e272e;
+    color : #f5f6fa;
+}
+
+#about{
+    margin: 15px 0 0 15px;
+}
+
+.btn-link{
+    color: #4bcffa;
+    font-size: 30px;
+}
+
+hr{
+    border-top: 1px solid #f5f6fa;
+}
+
+#main-container{
+    display: flex;
+    margin : 10%;
+}
+
+#textarea{
+    flex-basis: 50%;
+}
+
+#logo{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#logo > h1 {
+    font-size: 100px;
+    color : #4bcffa;
+    text-shadow: 6px 6px #f5f6fa;
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+#logo > h1:hover {
+    color : #ff3f34;
+    animation: fadeIn 1s;
+}
+
+form{
+    text-align: center;
+}
+
+.btn-submit{
+    margin-top: 15px;
+    background-color: #4bcffa;
+}
+
+#result {
+    text-align: center;
+    padding-bottom: 30px;
+}
